@@ -34,3 +34,12 @@ location / {
         }
 
 sudo systemctl restart nginx
+
+
+#!/bin/bash
+while true
+do
+   echo “Looping forever”
+   # Add another commands to run in the loop here
+done
+
